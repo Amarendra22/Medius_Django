@@ -1,4 +1,4 @@
-#Medius_Django
+# Medius_Django
 
 ### I have used openpyxl for uploading and reading excel file, django import-export library. I have also implemented a live background, the project can accept both excel and CSV file and the data from them gets stored in the django database, which can be seen in the django-admin pannel in the given formate.
 
