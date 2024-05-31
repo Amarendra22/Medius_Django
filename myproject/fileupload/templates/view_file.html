@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View File</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uploaded File Contents</h1>
+    <div>
+        {{ data|safe }}
+    </div>
+    <a href="/fileupload/upload/">Upload another file</a>
+</body>
+</html>
